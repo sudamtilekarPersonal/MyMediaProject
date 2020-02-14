@@ -1,11 +1,13 @@
 class HelloWorld{
 
-void displayHello(){
+static void displayHello(String str){
 System.out.println("Welclome to GIT");
 }
 
 public static void main(String[] args){
 System.out.println("Welclome to GIT");
+
+displayHello("Hello");
 
 
 }
