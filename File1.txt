@@ -1,4 +1,9 @@
 class HelloWorld{
+
+void displayHello(){
+System.out.println("Welclome to GIT");
+}
+
 public static void main(String[] args){
 System.out.println("Welclome to GIT");
 
