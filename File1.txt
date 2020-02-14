@@ -1,14 +1,17 @@
 class HelloWorld{
 
-public void displayHello(String str){
+public static void displayHello(String str){
 System.out.println(str);
 }
 
 public static void main(String[] args){
 System.out.println("Welclome to GIT");
 
+
 HelloWorld obj = new HelloWorld();
 obj.displayHello("Hey Git ... I am passing parameter  !!! Conflict will occure");
+
+displayHello("Hello");
 
 
 }
