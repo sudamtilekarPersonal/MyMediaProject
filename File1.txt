@@ -4,6 +4,10 @@ public static void displayHello(String str){
 System.out.println(str);
 }
 
+resolveBug(){
+// Bug Resolved
+}
+
 public static void main(String[] args){
 System.out.println("Welclome to GIT");
 
