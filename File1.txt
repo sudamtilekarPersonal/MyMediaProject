@@ -4,7 +4,8 @@ public static void displayHello(String str){
 System.out.println(str);
 }
 
-resolveBug(){
+public static void resolveBug(){
+
 // Bug Resolved
 }
 
@@ -16,6 +17,7 @@ HelloWorld obj = new HelloWorld();
 obj.displayHello("Hey Git ... I am passing parameter  !!! Conflict will occure");
 
 displayHello("Hello");
+bugResolved();
 
 
 }
